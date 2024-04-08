@@ -1,0 +1,463 @@
+  .screen-step {
+    display: flex;
+    flex-direction: column;
+    width: 1070px;
+
+    align-items: flex-start;
+    gap: 16px;
+    min-height: 80vh;
+    position: relative;
+    background-color: #F5F6F7;
+    border-radius: 12px;
+  }
+  
+  .screen-step .base-progress-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 auto;
+    background-color: var(--applicationsappageheaderbackground);
+  }
+  
+  .base-progress-bar-inner {
+    padding: 24px 41px 0px;
+    border-bottom: 1px solid black;
+  }
+  
+  .screen-step .title {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--main-header-sapobjectheader-title-fontsize-font-family);
+    font-weight: var(--main-header-sapobjectheader-title-fontsize-font-weight);
+    color: var(--containersapgrouptitletextcolor);
+    font-size: var(--main-header-sapobjectheader-title-fontsize-font-size);
+    letter-spacing: var(--main-header-sapobjectheader-title-fontsize-letter-spacing);
+    line-height: var(--main-header-sapobjectheader-title-fontsize-line-height);
+    font-style: var(--main-header-sapobjectheader-title-fontsize-font-style);
+  }
+  
+  .screen-step .tabs {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .screen-step .base-tabs {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .screen-step .div {
+    display: inline-flex;
+    flex-direction: column;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    padding: 16px 1px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .screen-step .number-wrapper {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #e5e5e5;
+  }
+  
+  .screen-step .page-2 .number-wrapper-blue {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    color: #0063d8;
+    background-color: #0063d8;
+  }
+  
+  .screen-step .page-3 .number-wrapper-blue {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    color: #0063d8;
+    background-color: #0063d8;
+  }
+
+  .screen-step .page-4 .number-wrapper-blue {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #e5e5e5;
+    color: #0063d8;
+    background-color: #0063d8;
+  }
+
+  
+  /* NUMBERS ON HEADER */
+  .screen-step .number {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 7.5px;
+    left: 0px;
+    font-family: var(--mediumtext-lhauto-regular-font-family);
+    font-weight: var(--mediumtext-lhauto-regular-font-weight);
+    color: #556b82;
+    font-size: var(--mediumtext-lhauto-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--mediumtext-lhauto-regular-letter-spacing);
+    line-height: var(--mediumtext-lhauto-regular-line-height);
+    font-style: var(--mediumtext-lhauto-regular-font-style);
+  }
+  
+  .screen-step .number-blue {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 7.5px;
+    left: 0px;
+    font-family: var(--mediumtext-lhauto-regular-font-family);
+    font-weight: var(--mediumtext-lhauto-regular-font-weight);
+    color: white;
+    font-size: var(--mediumtext-lhauto-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--mediumtext-lhauto-regular-letter-spacing);
+    line-height: var(--mediumtext-lhauto-regular-line-height);
+    font-style: var(--mediumtext-lhauto-regular-font-style);
+  }
+  .screen-step .base-selection-bar {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 3px;
+  }
+  
+  .screen-step .label {
+    position: relative;
+    width: fit-content;
+    font-family: var(--mediumtext-lhauto-bold-font-family);
+    font-weight: var(--mediumtext-lhauto-bold-font-weight);
+    color: #556b82;
+    font-size: var(--mediumtext-lhauto-bold-font-size);
+    letter-spacing: var(--mediumtext-lhauto-bold-letter-spacing);
+    line-height: var(--mediumtext-lhauto-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--mediumtext-lhauto-bold-font-style);
+  }
+  
+  /* LINE ON THE HEADER */
+  .screen-step .base-connector {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 64px;
+  }
+  
+  .screen-step .connector {
+    position: relative;
+    width: 326px;
+    height: 1px;
+    top: 32px;
+    background-color: var(--listsaplistbordercolor);
+    border: 1px solid;
+    border-color: var(--listsaplistbordercolor);
+  }
+  
+  /* TEXT DIV CONTAINER */
+  .screen-step .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 0%;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .screen-step .base-wizard-step p {
+    margin-bottom: 0px; 
+  }
+  
+
+  /* TEXT DIV */
+  .screen-step .base-wizard-step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0%;
+    position: relative;
+    align-self: stretch;
+    width: 1000px;
+    flex: 0 0 auto;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: var(--tilesaptilebackground);
+    border-radius: 16px;
+  }
+  
+  /* IMAGE DIV */
+  .screen-step .base-wizard-step-2 {
+    display: flex;
+    flex-direction: column;
+    height: 382px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0%;
+    position: relative;
+    align-self: stretch;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background-color: var(--tilesaptilebackground);
+    border-radius: 16px;
+  }
+  
+  .screen-step .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "72-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--textsaptextcolor);
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin-left: 20px;
+  }
+  
+  .screen-step .select-the-payment-m {
+    position: relative;
+    width: fit-content;
+    font-family: "72-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--textsaptextcolor);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 20px;
+  }
+  
+  .screen-step .ideal-state {
+    position: relative;
+    width: 971px;
+    height: 353px;
+    margin-left: 15px;
+    margin-bottom: -3px;
+  }
+  
+  .screen-step .floating-footer-off {
+    position: relative;
+    width: 1054px;
+    height: 40px;
+    top: 725px;
+    left: 8px;
+    margin: auto;
+    background-color: var(--applicationsappagefooterbackground);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sapcontent-shadow1);
+    position: absolute; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 0px 1px rgba(34, 54, 73, 0.48), 0px 20px 80px 0px rgba(34, 54, 73, 0.25);
+  }
+
+   .screen-step .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 8px;
+  }
+  
+  .screen-step .button,
+  .screen-step .button-2,
+  .screen-step .button-3 {
+    padding: 8px;
+    margin-right: 10px;
+  }
+
+  .screen-step .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 26px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--buttonstandardsapbuttonbackground);
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--buttonstandardsapbuttonbordercolor);
+  }
+  
+  .screen-step .text {
+    position: relative;
+    width: fit-content;
+    margin-top: -4px;
+    margin-bottom: -2px;
+    font-family: var(--mediumtext-lhauto-semibold-font-family);
+    font-weight: var(--mediumtext-lhauto-semibold-font-weight);
+    color: #556b82;
+    font-size: var(--mediumtext-lhauto-semibold-font-size);
+    letter-spacing: var(--mediumtext-lhauto-semibold-letter-spacing);
+    line-height: var(--mediumtext-lhauto-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--mediumtext-lhauto-semibold-font-style);
+  }
+  
+  .screen-step .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 1px;
+    padding: 8px;
+    background-color: #0070f2;
+    border-color: #0070f2;
+    display: inline-flex;
+    height: 26px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+  }
+  
+  .screen-step .text-2 {
+    margin-top: -4px;
+    margin-bottom: -2px;
+    font-family: var(--button-emphasized-sapbutton-emphasized-fontweight-font-family);
+    font-weight: var(--button-emphasized-sapbutton-emphasized-fontweight-font-weight);
+    color: var(--buttonemphasizedsapbuttonemphasizedtextcolor);
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    font-size: var(--button-emphasized-sapbutton-emphasized-fontweight-font-size);
+    letter-spacing: var(--button-emphasized-sapbutton-emphasized-fontweight-letter-spacing);
+    line-height: var(--button-emphasized-sapbutton-emphasized-fontweight-line-height);
+    white-space: nowrap;
+    font-style: var(--button-emphasized-sapbutton-emphasized-fontweight-font-style);
+  }
+  
+  .screen-step .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    gap: 4px;
+    padding: 5px 8px;
+    border-color: var(--buttonlitesapbuttonlitebordercolor);
+    display: inline-flex;
+    height: 26px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    background-color: var(--buttonlitesapbuttonlitebackground);
+  }
+  
+  .screen-step .text-3 {
+    margin-top: -1px;
+    font-family: var(--mediumtext-lhauto-semibold-font-family);
+    font-weight: var(--mediumtext-lhauto-semibold-font-weight);
+    color: #0064d8;
+    position: relative;
+    width: fit-content;
+    font-size: var(--mediumtext-lhauto-semibold-font-size);
+    letter-spacing: var(--mediumtext-lhauto-semibold-letter-spacing);
+    line-height: var(--mediumtext-lhauto-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--mediumtext-lhauto-semibold-font-style);
+  }
+
+  html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+  @media screen and (max-width:200px) {
+    .screen-step {
+        width:94%;
+        grid-template-columns: 7rem auto 23rem;
+    }
+  }
+
+  body {
+    background-color: grey;
+  }
+
+
+
+      /* CSS for the overlay */
+      .popup-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+      }
+
+      .popup-overlay img.homeBackground{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('Fiori Launchpad.png');
+        background-size: cover;
+        background-position: center;
+      }
+      
+    /* PAGE 2 */
+
+    .screen-step .tabs {
+      display: flex;
+      height: 64px;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+    }
+    
+    .screen-step .base-tabs {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0px 8px;
+      position: relative;
+      flex: 0 0 auto;
+    }
